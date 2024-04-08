@@ -1,0 +1,7 @@
+D:\215 группа\КП -19- 1\bin\Debug\КП -19- 1.exe.config
+D:\215 группа\КП -19- 1\bin\Debug\КП -19- 1.exe
+D:\215 группа\КП -19- 1\bin\Debug\КП -19- 1.pdb
+D:\215 группа\КП -19- 1\obj\Debug\КП -19- 1.csproj.AssemblyReference.cache
+D:\215 группа\КП -19- 1\obj\Debug\КП -19- 1.csproj.CoreCompileInputs.cache
+D:\215 группа\КП -19- 1\obj\Debug\КП -19- 1.exe
+D:\215 группа\КП -19- 1\obj\Debug\КП -19- 1.pdb
