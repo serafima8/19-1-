@@ -9,7 +9,7 @@ namespace КП__19__1_Домашнее_задание
     /// <summary>
     /// треугольник
     /// </summary>
-    class Triangle : Figure, FigureInterface
+    class Triangle : Figure, IFigureInterface
     {
         public double H { get; set; }
         public int C { get; set; }
@@ -26,7 +26,7 @@ namespace КП__19__1_Домашнее_задание
         {
             Console.WriteLine($"Периметр: {A+B+C}");
         }
-        static public Triangle ToString()
+        static public Triangle Show()
         {
             Console.Write("Введите сторону A: ");
             int a = Convert.ToInt32(Console.ReadLine());

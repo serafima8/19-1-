@@ -9,7 +9,7 @@ namespace КП__19__1_Домашнее_задание
     /// <summary>
     /// прямоугольник 
     /// </summary>
-    class Rectangle : Figure, FigureInterface
+    class Rectangle : Figure, IFigureInterface
     {
         public Rectangle(int a, int b) : base(a, b) { }
         public void Square()
@@ -20,7 +20,7 @@ namespace КП__19__1_Домашнее_задание
         {
             Console.WriteLine($"Периметр: {(A+B)*2}");
         }
-        static public Rectangle ToString()
+        static public Rectangle Show()
         {
             Console.Write("Введите сторону A: ");
             int a = Convert.ToInt32(Console.ReadLine());

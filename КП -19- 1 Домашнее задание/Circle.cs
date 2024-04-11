@@ -9,7 +9,7 @@ namespace КП__19__1_Домашнее_задание
     /// <summary>
     /// окружность 
     /// </summary>
-    class Circle : FigureInterface
+    class Circle : IFigureInterface
     {
         public double R { get; set; }
         public Circle(double r)
@@ -25,7 +25,7 @@ namespace КП__19__1_Домашнее_задание
             Console.WriteLine($"Периметр: {2*Math.PI*R}");
         }
 
-        static public Circle ToString()
+        static public Circle Show()
         {
             Console.Write("Введите радиус: ");
             double r = Convert.ToDouble(Console.ReadLine());

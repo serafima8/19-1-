@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace КП__19__1_Домашнее_задание
 {
-    interface FigureInterface
+    interface IFigureInterface
     {
         void Square();
         void Perimeter();
@@ -28,28 +28,26 @@ namespace КП__19__1_Домашнее_задание
                     switch (a)
                     {
                         case "Прямоугольник":
-                            Rectangle rectangle = new Rectangle(a,b);
-                            Rectangle.ToString();
+                            Rectangle rectangle = Rectangle.Show();
+                            figures.Add(rectangle);
                             rectangle.Square();
                             rectangle.Perimeter();
                             break;
                         case "Треугольник":
-                            commoditys.Add(Consignment.Show());
+                            Triangle triangle = Triangle.Show();
+                            figures.Add(triangle);
+                            triangle.Square();
+                            triangle.Perimeter();
                             break;
                         case "Окружность":
-                            commoditys.Add(Set.Show());
+                            Circle circle = Circle.Show();
+                            circle.Square();
+                            circle.Perimeter();
                             break;
                         default:
-                            Console.WriteLine("Товар введен некорректно");
+                            Console.WriteLine("Фигура введена некорректно");
                             break;
                     }
-
-                    //foreach (var elem in commoditys)
-                    //{
-                    //    elem.Print();
-                    //    //  Console.WriteLine("Просроченные продукты: ");
-                    //    //  elem.DeadLineExpirationDate();
-                    //}
 
                     Console.ReadKey();
                 }
