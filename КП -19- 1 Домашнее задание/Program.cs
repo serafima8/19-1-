@@ -8,7 +8,13 @@ namespace КП__19__1_Домашнее_задание
 {
     interface IFigureInterface
     {
+        /// <summary>
+        /// нереализованный метод площадь
+        /// </summary>
         void Square();
+        /// <summary>
+        /// нереализованный метод периметр 
+        /// </summary>
         void Perimeter();
     }
     class Program
